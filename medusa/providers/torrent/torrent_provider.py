@@ -248,7 +248,7 @@ class TorrentProvider(GenericProvider):
                 return urls, filename
         else:
             # Required for Jackett providers that use magnet redirects
-            # See: https://github.com/pymedusa/Medusa/issues/3435
+            # See: https://github.com/butlergroup/Medusa/issues/3435
             if self.kind() == 'TorznabProvider':
                 redirect_url = self.get_redirect_url(result.url)
                 if redirect_url != result.url:

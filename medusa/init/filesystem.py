@@ -142,7 +142,7 @@ def initialize():
 
     # pyOpenSSL 0.14-1 bug: it can't handle unicode input.
     # pyOpenSSL fix -> https://github.com/pyca/pyopenssl/pull/209
-    # Our bug: https://github.com/pymedusa/Medusa/issues/1422
+    # Our bug: https://github.com/butlergroup/Medusa/issues/1422
     handle_output_map = {
         certifi: _handle_output_b
     }

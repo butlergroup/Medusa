@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/pymedusa/medusa.github.io/4360d494/images/logo/new-logo.png"/>
+  <img src="https://cdn.rawgit.com/butlergroup/medusa.github.io/4360d494/images/logo/new-logo.png"/>
 </p>
 <p align="center" title="Build Status">
   <a href="https://travis-ci.com/github/pymedusa/Medusa">
@@ -66,7 +66,7 @@
  * **Python 3** – 3.7.0 and newer
 
 #### Installation - direct
- Start [here](https://github.com/pymedusa/Medusa/wiki/Installation-&-Configuration-Guides) to read the installation guides for different setups.
+ Start [here](https://github.com/butlergroup/Medusa/wiki/Installation-&-Configuration-Guides) to read the installation guides for different setups.
 
 #### Installation - Docker
  There's a direct build available on [Dockerhub](https://hub.docker.com/r/pymedusa/medusa/) which is updated directly from this repo on every commit to master.
@@ -77,13 +77,13 @@
 * armhf - [Dockerhub](https://hub.docker.com/r/lsioarmhf/medusa/), [Github](https://github.com/linuxserver/docker-medusa-armhf)
 * aarch64 - [Dockerhub](https://hub.docker.com/r/lsioarmhf/medusa-aarch64/), [Github](https://github.com/linuxserver/docker-medusa-arm64)
 
-#### [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](https://github.com/pymedusa/Medusa/issues?q=is%3Aopen+is%3Aissue+label%3A%22Feature+Request%22)
+#### [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](https://github.com/butlergroup/Medusa/issues?q=is%3Aopen+is%3Aissue+label%3A%22Feature+Request%22)
 
-##### [Medusa Issue Tracker](https://github.com/pymedusa/Medusa/issues)
+##### [Medusa Issue Tracker](https://github.com/butlergroup/Medusa/issues)
 
-##### [FAQ](https://github.com/pymedusa/Medusa/wiki/FAQ%27s-and-Fixes)
+##### [FAQ](https://github.com/butlergroup/Medusa/wiki/FAQ%27s-and-Fixes)
 
-##### [Wiki](https://github.com/pymedusa/Medusa/wiki)
+##### [Wiki](https://github.com/butlergroup/Medusa/wiki)
 
 ##### [Discord](https://discord.gg/zMdAdUK)
 
@@ -93,17 +93,17 @@ We HIGHLY recommend starting out with no database files at all to make this a fr
 
 #### Supported providers
 
-A partial list can be found [here](https://github.com/pymedusa/Medusa/wiki/Medusa-Search-Providers). Jackett is supported, however it must be configured [as follows](https://github.com/pymedusa/Medusa/wiki/Using-Jackett-with-Medusa).
+A partial list can be found [here](https://github.com/butlergroup/Medusa/wiki/Medusa-Search-Providers). Jackett is supported, however it must be configured [as follows](https://github.com/butlergroup/Medusa/wiki/Using-Jackett-with-Medusa).
 
 #### Special Thanks to:
 
 LinuxServer.io for the alternative Docker image.
 
 #### News and Changelog
-[news.md has moved to a separate repo, click here](https://github.com/pymedusa/medusa.github.io/blob/master/news/news.md)
+[news.md has moved to a separate repo, click here](https://github.com/butlergroup/medusa.github.io/blob/master/news/news.md)
 
-[The changelog can be found here](https://github.com/pymedusa/Medusa/blob/develop/CHANGELOG.md),
-[The changelog for versions prior to v0.2.7 can be found here](https://github.com/pymedusa/medusa.github.io/blob/master/news/CHANGES.md)
+[The changelog can be found here](https://github.com/butlergroup/Medusa/blob/develop/CHANGELOG.md),
+[The changelog for versions prior to v0.2.7 can be found here](https://github.com/butlergroup/medusa.github.io/blob/master/news/CHANGES.md)
 
 #### External dependencies
 This product uses [MediaInfo](http://mediaarea.net/MediaInfo) library, Copyright (c) 2002-2016 [MediaArea.net SARL](mailto:Info@MediaArea.net)

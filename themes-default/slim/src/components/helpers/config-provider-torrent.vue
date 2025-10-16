@@ -21,7 +21,7 @@
                 <template v-if="editProvider.config.cookies.required">
                     <p>eg. {{editProvider.config.cookies.required.map(cookie => cookie + '=xx;').join('').slice(0, -1)}}</p>
                     <p>This provider requires the following cookies: {{editProvider.config.cookies.required.join(', ')}}.
-                        <br>For a step by step guide please follow the link to our <app-link href="https://github.com/pymedusa/Medusa/wiki/Configure-Providers-with-captcha-protection">WIKI</app-link>
+                        <br>For a step by step guide please follow the link to our <app-link href="https://github.com/butlergroup/Medusa/wiki/Configure-Providers-with-captcha-protection">WIKI</app-link>
                     </p>
                 </template>
             </config-textbox>

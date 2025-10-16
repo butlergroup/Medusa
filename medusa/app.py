@@ -51,15 +51,15 @@ class MedusaApp(object):
         self.RECOMMENDED_DB = 'recommended.db'
         self.LOG_FILENAME = 'application.log'
         self.CONFIG_INI = 'config.ini'
-        self.GIT_ORG = 'pymedusa'
+        self.GIT_ORG = 'butlergroup'
         self.GIT_REPO = 'Medusa'
-        self.BASE_MEDUSA_URL = 'https://raw.githubusercontent.com/pymedusa/Medusa/refs/heads/master'
-        self.BASE_PYMEDUSA_URL = 'https://raw.githubusercontent.com/pymedusa/medusa.github.io/refs/heads/master'
+        self.BASE_MEDUSA_URL = 'https://raw.githubusercontent.com/butlergroup/Medusa/refs/heads/master'
+        self.BASE_PYMEDUSA_URL = 'https://raw.githubusercontent.com/butlergroup/medusa.github.io/refs/heads/master'
         self.CHANGES_URL = '{base_url}/CHANGELOG.md'.format(base_url=self.BASE_MEDUSA_URL)
         self.APPLICATION_URL = 'https://github.com/{org}/{repo}'.format(org=self.GIT_ORG, repo=self.GIT_REPO)
         self.DONATIONS_URL = '{0}/wiki/Donations'.format(self.APPLICATION_URL)
         self.WIKI_URL = '{0}/wiki'.format(self.APPLICATION_URL)
-        self.GITHUB_IO_URL = 'http://github.com/pymedusa/medusa.github.io/'
+        self.GITHUB_IO_URL = 'http://github.com/butlergroup/medusa.github.io/'
         self.EXTRA_SCRIPTS_URL = '{0}/wiki/Post-Processing#extra-scripts'.format(self.APPLICATION_URL)
         self.SUBTITLES_URL = '{0}/wiki/Subtitle%20Scripts'.format(self.APPLICATION_URL)
         self.RARBG_APPID = 'medusa'

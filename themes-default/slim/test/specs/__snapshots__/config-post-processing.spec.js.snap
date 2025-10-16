@@ -1350,7 +1350,7 @@ exports[`ConfigPostProcessing.test.js renders 1`] = `
                             See 
                             <app-link-stub
                               class="wikie"
-                              href="https://github.com/pymedusa/Medusa/wiki/Post-Processing#extra-scripts"
+                              href="https://github.com/butlergroup/Medusa/wiki/Post-Processing#extra-scripts"
                               placeholder="indexer-to-name"
                             >
                               <strong>

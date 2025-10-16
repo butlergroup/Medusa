@@ -51,7 +51,7 @@ User=medusa
 Group=medusa
 
 Type=simple
-ExecStart=/usr/bin/python3 /opt/medusa/start.py -q --nolaunch --datadir=/opt/medusa
+ExecStart=/opt/medusa/venv/bin/python /opt/medusa/start.py -q --nolaunch --datadir=/opt/medusa
 TimeoutStopSec=25
 KillMode=process
 Restart=on-failure

@@ -20,7 +20,7 @@ RUN \
     tar xf /tmp/unrar-pkg/unrar-*.apk -C /tmp/unrar-install
 
 FROM python:3.10.8-alpine3.15
-LABEL maintainer="pymedusa"
+LABEL maintainer="butlergroup"
 
 ARG GIT_BRANCH
 ARG GIT_COMMIT

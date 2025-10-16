@@ -25,7 +25,7 @@ exports[`Config.test.js renders 1`] = `
                 
         <span>
           <app-link-stub
-            href="https://github.com/pymedusa/Medusa/tree/master"
+            href="https://github.com/butlergroup/Medusa/tree/master"
             placeholder="indexer-to-name"
           >
             master
@@ -38,7 +38,7 @@ exports[`Config.test.js renders 1`] = `
                 
         <span>
           <app-link-stub
-            href="https://github.com/pymedusa/Medusa/commit/f5973b28465246e67465d7d86bdc8aa74d13e659"
+            href="https://github.com/butlergroup/Medusa/commit/f5973b28465246e67465d7d86bdc8aa74d13e659"
             placeholder="indexer-to-name"
           >
             f5973b28465246e67465d7d86bdc8aa74d13e659
@@ -51,7 +51,7 @@ exports[`Config.test.js renders 1`] = `
                 
         <span>
           <app-link-stub
-            href="https://github.com/pymedusa/Medusa/releases/tag/v0.3.7"
+            href="https://github.com/butlergroup/Medusa/releases/tag/v0.3.7"
             placeholder="indexer-to-name"
           >
             0.3.7
@@ -299,10 +299,10 @@ exports[`Config.test.js renders 1`] = `
       </td>
       <td>
         <app-link-stub
-          href="https://github.com/pymedusa/medusa.github.io"
+          href="https://github.com/butlergroup/medusa.github.io"
           placeholder="indexer-to-name"
         >
-          https://github.com/pymedusa/medusa.github.io
+          https://github.com/butlergroup/medusa.github.io
         </app-link-stub>
       </td>
     </tr>
@@ -316,10 +316,10 @@ exports[`Config.test.js renders 1`] = `
       </td>
       <td>
         <app-link-stub
-          href="https://github.com/pymedusa/Medusa/wiki"
+          href="https://github.com/butlergroup/Medusa/wiki"
           placeholder="indexer-to-name"
         >
-          https://github.com/pymedusa/Medusa/wiki
+          https://github.com/butlergroup/Medusa/wiki
         </app-link-stub>
       </td>
     </tr>
@@ -333,10 +333,10 @@ exports[`Config.test.js renders 1`] = `
       </td>
       <td>
         <app-link-stub
-          href="https://github.com/pymedusa/Medusa"
+          href="https://github.com/butlergroup/Medusa"
           placeholder="indexer-to-name"
         >
-          https://github.com/pymedusa/Medusa
+          https://github.com/butlergroup/Medusa
         </app-link-stub>
       </td>
     </tr>

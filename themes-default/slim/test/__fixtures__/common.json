@@ -10,9 +10,9 @@
                     "E:\\TV",
                     "W:\\TV"
                 ],
-                "wikiUrl": "https://github.com/pymedusa/Medusa/wiki",
-                "donationsUrl": "https://github.com/pymedusa/Medusa/wiki/Donations",
-                "sourceUrl": "https://github.com/pymedusa/Medusa",
+                "wikiUrl": "https://github.com/butlergroup/Medusa/wiki",
+                "donationsUrl": "https://github.com/butlergroup/Medusa/wiki/Donations",
+                "sourceUrl": "https://github.com/butlergroup/Medusa",
                 "namingForceFolders": false,
                 "recentShows": [
                     {
@@ -216,10 +216,10 @@
                     "authType": 0,
                     "remote": "origin",
                     "path": "",
-                    "org": "pymedusa",
+                    "org": "butlergroup",
                     "reset": true,
                     "resetBranches": [],
-                    "url": "https://github.com/pymedusa/medusa.github.io"
+                    "url": "https://github.com/butlergroup/medusa.github.io"
                 },
                 "backlogOverview": {
                     "status": "all",
@@ -541,7 +541,7 @@
                         },
                         "xemOrigin": "tvdb",
                         "icon": "thetvdb16.png",
-                        "scene_loc": "https://raw.githubusercontent.com/pymedusa/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tvdb.json",
+                        "scene_loc": "https://raw.githubusercontent.com/butlergroup/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tvdb.json",
                         "baseUrl": "https://api.thetvdb.com/",
                         "showUrl": "https://www.thetvdb.com/dereferrer/series/",
                         "mappedTo": "tvdb_id",
@@ -557,7 +557,7 @@
                         },
                         "xemOrigin": null,
                         "icon": "tvmaze16.png",
-                        "scene_loc": "https://raw.githubusercontent.com/pymedusa/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tvmaze.json",
+                        "scene_loc": "https://raw.githubusercontent.com/butlergroup/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tvmaze.json",
                         "baseUrl": "http://api.tvmaze.com/",
                         "showUrl": "http://www.tvmaze.com/shows/",
                         "mappedTo": "tvmaze_id",
@@ -573,7 +573,7 @@
                         },
                         "xemOrigin": null,
                         "icon": "tmdb16.png",
-                        "scene_loc": "https://raw.githubusercontent.com/pymedusa/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tmdb.json",
+                        "scene_loc": "https://raw.githubusercontent.com/butlergroup/medusa.github.io/refs/heads/master/scene_exceptions/scene_exceptions_tmdb.json",
                         "baseUrl": "https://www.themoviedb.org/",
                         "showUrl": "https://www.themoviedb.org/tv/",
                         "mappedTo": "tmdb_id",
@@ -1299,7 +1299,7 @@
                     "srt"
                 ],
                 "extraScripts": [],
-                "extraScriptsUrl": "https://github.com/pymedusa/Medusa/wiki/Post-Processing#extra-scripts",
+                "extraScriptsUrl": "https://github.com/butlergroup/Medusa/wiki/Post-Processing#extra-scripts",
                 "multiEpStrings": {
                     "1": "Repeat",
                     "2": "Extend",
@@ -1521,7 +1521,7 @@
                 "hearingImpaired": false,
                 "preScripts": [],
                 "extraScripts": [],
-                "wikiUrl": "https://github.com/pymedusa/Medusa/wiki/Subtitle%20Scripts",
+                "wikiUrl": "https://github.com/butlergroup/Medusa/wiki/Subtitle%20Scripts",
                 "providerLogins": {
                     "addic7ed": {
                         "user": "",

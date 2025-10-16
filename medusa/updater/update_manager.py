@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 import logging
-from distutils.version import LooseVersion
+from packaging.version import Version as LooseVersion
 
 from github import GithubException
 

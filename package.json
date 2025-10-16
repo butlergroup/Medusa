@@ -3,12 +3,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PyMedusa/Medusa.git"
+    "url": "git+https://github.com/butlergroup/Medusa.git"
   },
   "bugs": {
-    "url": "https://github.com/PyMedusa/Medusa/issues"
+    "url": "https://github.com/butlergroup/Medusa/issues"
   },
-  "homepage": "https://github.com/PyMedusa/Medusa#readme",
+  "homepage": "https://github.com/butlergroup/Medusa#readme",
   "scripts": {
     "test-api": "dredd --config dredd/dredd.yml"
   },

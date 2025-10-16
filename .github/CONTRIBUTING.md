@@ -36,14 +36,14 @@ Bugs in old versions of Medusa may have already been fixed. In order to avoid re
 
 ### Reporting the issue
 
-If the above steps fail and you are sure its a bug, issues are tracked in the [Medusa issue tracker](https://github.com/pymedusa/Medusa).
+If the above steps fail and you are sure its a bug, issues are tracked in the [Medusa issue tracker](https://github.com/butlergroup/Medusa).
 
 ## Tips For Submitting Code
 
 
 ### Code
 
-**ALWAYS follow Medusa [Coding Standards](https://github.com/pymedusa/Medusa/wiki/Medusa-Coding-Standards)**
+**ALWAYS follow Medusa [Coding Standards](https://github.com/butlergroup/Medusa/wiki/Medusa-Coding-Standards)**
 
 Review regularly as they are subject to change and submissions will not be accepted until they meet our guidelines.
 
@@ -92,7 +92,7 @@ Please follow this process; it's the best way to get your work included in the p
    # navigate to the newly cloned directory
    cd Medusa
    # assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/pymedusa/Medusa.git
+   git remote add upstream https://github.com/butlergroup/Medusa.git
    ```
 
 - If you cloned a while ago, get the latest changes from upstream:
@@ -138,4 +138,4 @@ Please follow this process; it's the best way to get your work included in the p
 
 ## Code guidelines
 
-Read and follow the [Medusa Coding Standards](https://github.com/pymedusa/Medusa/wiki/Medusa-Coding-Standards).  Review these regularly as they are subject to change and code will not be accepted if it does not adhere to the standards.
+Read and follow the [Medusa Coding Standards](https://github.com/butlergroup/Medusa/wiki/Medusa-Coding-Standards).  Review these regularly as they are subject to change and code will not be accepted if it does not adhere to the standards.

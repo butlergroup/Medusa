@@ -130,7 +130,7 @@ export default {
             sceneExceptions: [{
                 id: 'local',
                 name: "Medusa's",
-                url: 'https://github.com/pymedusa/Medusa/wiki/Scene-exceptions-and-numbering',
+                url: 'https://github.com/butlergroup/Medusa/wiki/Scene-exceptions-and-numbering',
                 lastRefresh: ''
             }, {
                 id: 'xem',

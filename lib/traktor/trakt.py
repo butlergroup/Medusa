@@ -145,7 +145,7 @@ class TraktApi(object):
                 log.warning(log_message)
                 raise TokenExpiredException(log_message)
             elif code == 413:
-                # Cause of error unknown - https://github.com/pymedusa/Medusa/issues/4090
+                # Cause of error unknown - https://github.com/butlergroup/Medusa/issues/4090
                 log_message = u'Trakt error (413) Request Entity Too Large for url {0}'.format(url + path)
                 log.warning(log_message)
                 # Dumping data for debugging purposes

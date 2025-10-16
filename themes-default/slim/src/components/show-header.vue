@@ -2,11 +2,11 @@
     <div v-if="slug === show.id.slug" class="show-header-container">
         <div class="row">
             <!-- @TODO: Remove data attributes -->
-            <!-- @SEE: https://github.com/pymedusa/Medusa/pull/5087#discussion_r214074436 -->
+            <!-- @SEE: https://github.com/butlergroup/Medusa/pull/5087#discussion_r214074436 -->
             <div v-if="show" id="showtitle" class="col-lg-12" :data-showname="show.title">
                 <div>
                     <!-- @TODO: Remove data attributes -->
-                    <!-- @SEE: https://github.com/pymedusa/Medusa/pull/5087#discussion_r214077142 -->
+                    <!-- @SEE: https://github.com/butlergroup/Medusa/pull/5087#discussion_r214077142 -->
                     <h1 class="title" :data-indexer-name="show.indexer" :data-series-id="show.id[show.indexer]" :id="'scene_exception_' + show.id[show.indexer]">
                         <app-link :href="`home/displayShow?showslug=${show.id.slug}`" class="snatchTitle">{{ show.title }}</app-link>
                     </h1>

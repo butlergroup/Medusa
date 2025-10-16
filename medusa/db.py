@@ -251,7 +251,7 @@ class DBConnection(object):
         try:
             self.connection.rollback()
         except sqlite3.OperationalError as error:
-            # See https://github.com/pymedusa/Medusa/issues/3190
+            # See https://github.com/butlergroup/Medusa/issues/3190
             if 'no transaction is active' in error.args[0]:
                 logger.log('Rollback not needed, skipping', logger.DEBUG)
             else:

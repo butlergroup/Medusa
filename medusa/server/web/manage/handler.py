@@ -76,7 +76,7 @@ class Manage(Home, WebRoot):
             if helpers.check_url('{url}download/'.format(url=webui_url)):
                 webui_url += 'download/'
             else:
-                webui_url = 'https://github.com/pymedusa/Medusa/wiki/Download-Station'
+                webui_url = 'https://github.com/butlergroup/Medusa/wiki/Download-Station'
 
         return self.redirect(webui_url)
 
