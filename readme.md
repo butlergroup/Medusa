@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/butlergroup/medusa.github.io/4360d494/images/logo/new-logo.png"/>
+  <img src="https://cdn.rawgit.com/pymedusa/medusa.github.io/4360d494/images/logo/new-logo.png"/>
 </p>
 <p align="center" title="Build Status">
   <a href="https://travis-ci.com/github/pymedusa/Medusa">
@@ -24,7 +24,25 @@
 </p>
 
 
-### Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+## Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+
+### Modifications in this fork:
+
+ - Custom Python 3.12.12 is built using the install.sh script
+ - Python 3.12.12 then creates a venv for Medusa to run in that includes updated modules 
+ - Minor customizations to the Python code and systemd service have been made to allow Medusa to run in an Ubuntu environment
+ - Other environments are untested (we welcome contributors!)
+
+### Contributing
+
+We welcome contributions from the community! A simple guide to get started:
+
+1. Fork the repository to your Github account (a.k.a create a branch). 
+2. Clone your forked repo/branch to your favorite IDE (VS Code is our editor of choice) and make changes (or use the command-line: git checkout -b feature/your-feature).
+3. **Thoroughly test and debug your changes**, then commit and push them to your forked repo/branch.
+4. Open a pull request to have your changes reviewed and reintegrated into the main branch.
+
+Contributors are strongly encouraged to read our [CONTRIBUTING.md](https://github.com/butlergroup/Medusa/blob/main/CONTRIBUTING.md) file before opening a pull request. 
 
 #### Exclusive features
  - Supports TVMaze and TMDB indexers

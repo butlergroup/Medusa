@@ -1,4 +1,6 @@
 # Build script created to deploy Medusa with custom-built Python in a container
+# If you use this script to deploy Medusa in Kubernetes, you'll need to create a persistent volume and persistent volume claim
+# and map them to the container in order for Medusa to persist its data - otherwise the database will be lost when the container shuts down.
 # --- Base image ---
 FROM ubuntu:24.04
 

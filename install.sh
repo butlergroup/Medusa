@@ -1,3 +1,7 @@
+# This script installs build dependencies, builds custom Python, and creates a venv for Medusa
+# The venv is customized to provide Medusa with the updated Python modules it needs to run successfully.
+# Minor customizations have also been made to the Python code and systemd service to allow Medusa to launch in an Ubuntu environment 
+# Other environments are untested
 #!/bin/bash
 set -e
 
