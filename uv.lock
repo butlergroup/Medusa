@@ -443,11 +443,11 @@ wheels = [
 
 [[package]]
 name = "jsonrpclib-pelix"
-version = "0.4.3.4"
+version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/79/21/51a59adb17c2aa27ec3cef8787485df66e06c29f08e19a9d554e45b8f56d/jsonrpclib_pelix-0.4.3.4.tar.gz", hash = "sha256:e82d6f4da907a7d111ef93fd2361c8c20b79d248be4fe99678e08626aa8fcbef", size = 66438, upload-time = "2025-03-03T18:54:00.162Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/a3/a5c0826706ac0929673cf1d92111c10282801580795ec35d829af1e5c8fa/jsonrpclib_pelix-1.0.0.tar.gz", hash = "sha256:5b1ea14da6e371dbabedb1abed0a8ba1cf596428350cd9d0188f3c6c6c8ef784", size = 7793582, upload-time = "2025-11-09T17:39:15.302Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a2/99/4a90dbb4c264530c4b50895836dc0bc2763945b06536008b24b4f341a58c/jsonrpclib_pelix-0.4.3.4-py3-none-any.whl", hash = "sha256:56da1fd8fdfe040811cd6f0b76a1b8f40e4144ac03a2a9d03dfeefadda76f71c", size = 42477, upload-time = "2025-03-03T18:53:58.967Z" },
+    { url = "https://files.pythonhosted.org/packages/19/97/a117906d00e83ba63e3957f4a10e4ca2dc1d5eda5078b84179d289cb8f42/jsonrpclib_pelix-1.0.0-py3-none-any.whl", hash = "sha256:4f775181bbb1dcc0c2742e754b2f0e69354ef08eedac155fb163ee5a8ab7b835", size = 42817, upload-time = "2025-11-09T17:39:08.272Z" },
 ]
 
 [[package]]
@@ -640,7 +640,7 @@ requires-dist = [
     { name = "feedparser", specifier = "==6.0.12" },
     { name = "gntp", specifier = "==1.0.3" },
     { name = "html5lib", specifier = "==1.1" },
-    { name = "jsonrpclib-pelix", specifier = "==0.4.3.4" },
+    { name = "jsonrpclib-pelix", specifier = "==1.0.0" },
     { name = "mako", specifier = "==1.3.10" },
     { name = "markdown2", specifier = "==2.5.4" },
     { name = "packaging", specifier = "==25.0" },
