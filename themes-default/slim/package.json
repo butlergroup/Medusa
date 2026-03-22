@@ -38,7 +38,7 @@
     "date-fns": "2.30.0",
     "is-visible": "2.2.0",
     "javascript-time-ago": "2.6.4",
-    "jquery": "3.7.1",
+    "jquery": "4.0.0",
     "lodash": "4.17.21",
     "lozad": "1.16.0",
     "sass": "1.93.2",
