@@ -120,15 +120,15 @@
     "webpack-cli": "7.0.2"
   },
   "resolutions": {
-    "underscore": "^1.13.7",
+    "underscore": "^1.13.8",
     "minimist": "^1.2.8",
     "getobject": "^1.1.1",
-    "form-data": "^4.0.4",
-    "jsonpath-plus": "^10.3.0",
+    "form-data": "^4.0.5",
+    "jsonpath-plus": "^10.4.0",
     "json-pointer": "^0.6.2",
     "vue-template-compiler": "^2.7.16",
-    "tough-cookie": "^6.0.0",
-    "postcss": "^8.5.6",
+    "tough-cookie": "^6.0.1",
+    "postcss": "^8.5.8",
     "braces": "^3.0.3",
     "strip-ansi": "^6.0.1",
     "string-width": "^4.2.3"
