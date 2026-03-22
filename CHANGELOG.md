@@ -1,3 +1,18 @@
+## 1.0.26 (12-11-2025)
+#### New Features
+- Added Microsoft Defender For Devops workflow
+- Added OSV-Scanner workflow (scheduled)
+- Added dependabot.yml workflow
+
+#### Improvements
+- Modified scorecard.yml with concurrency settings and removed scheduled run
+
+
+#### Fixes
+- 
+
+-----
+
 ## 1.0.25 (12-11-2025)
 
 ([@butlergroup](https://github.com/butlergroup) did a bunch of homework for y'all!)
