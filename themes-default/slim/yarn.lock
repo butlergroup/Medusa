@@ -4006,12 +4006,7 @@ data-view-byte-offset@^1.0.1:
     es-errors "^1.3.0"
     is-data-view "^1.0.1"
 
-date-fns@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-4.1.0.tgz#64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14"
-  integrity sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==
-
-date-fns@^2.17.0:
+date-fns@2.30.0, date-fns@^2.17.0:
   version "2.30.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
   integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
@@ -7187,12 +7182,12 @@ jackspeak@^4.1.1:
   dependencies:
     "@isaacs/cliui" "^9.0.0"
 
-javascript-time-ago@2.5.12:
-  version "2.5.12"
-  resolved "https://registry.yarnpkg.com/javascript-time-ago/-/javascript-time-ago-2.5.12.tgz#b789f5c84b0518b38700722627c404a09299c5f9"
-  integrity sha512-s8PPq2HQ3HIbSU0SjhNvTitf5VoXbQWof9q6k3gIX7F2il0ptjD5lONTDccpuKt/2U7RjbCp/TCHPK7eDwO7zQ==
+javascript-time-ago@2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/javascript-time-ago/-/javascript-time-ago-2.6.4.tgz#3149de049ffe3c374eb5a357cd9aaa911aa98fb9"
+  integrity sha512-7K/Z37LuwVaxxjutUDd1pXpznufPcox0b1UYu00ksAMMlV6IsxIvduwL3kgfPxuBVF8jVj7nhrKMPDslMq94aQ==
   dependencies:
-    relative-time-format "^1.1.7"
+    relative-time-format "^1.1.12"
 
 jest-changed-files@^26.6.2:
   version "26.6.2"
@@ -10198,7 +10193,7 @@ regjsparser@^0.13.0:
   dependencies:
     jsesc "~3.1.0"
 
-relative-time-format@^1.1.7:
+relative-time-format@^1.1.12:
   version "1.1.12"
   resolved "https://registry.yarnpkg.com/relative-time-format/-/relative-time-format-1.1.12.tgz#2236c98c48047664bbff0643283dd4f317d26079"
   integrity sha512-qaZBjmRIuXLfuLnzgqpFdBPa5W0euSX1tMnoMUHGPphLwJmrt8xbNiOIHrlvYOD6oNJ0M5owPCZyPibI8de5pQ==
