@@ -1,4 +1,4 @@
-## 1.0.26 (12-11-2025)
+## 1.0.26 
 #### New Features
 - Added Microsoft Defender For Devops workflow
 - Added OSV-Scanner workflow (scheduled)
@@ -6,7 +6,10 @@
 
 #### Improvements
 - Modified scorecard.yml with concurrency settings and removed scheduled run
+- All dependencies in pyproject.toml, requirements.txt, and test_requirements.txt have been updated to the latest possible version without build/test errors
+- uv.lock file updated
 - All dependencies in package.json, themes-default/slim/package.json, and .build/package.json have been updated to the latest possible version without build/test errors
+- All yarn.lock files updated
 
 #### Fixes
 - 
