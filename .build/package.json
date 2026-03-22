@@ -17,12 +17,12 @@
     "load-grunt-tasks": "5.1.0"
   },
   "resolutions": {
-    "bower": ">= 1.8.8",
-    "deep-extend": ">= 0.5.1",
-    "lodash": ">= 4.17.21",
+    "bower": ">= 1.8.14",
+    "deep-extend": ">= 0.6.0",
+    "lodash": ">= 4.17.23",
     "minimist": "^1.2.8",
-    "semver": "^7.7.3",
-    "minimatch": "^10.0.3",
+    "semver": "^7.7.4",
+    "minimatch": "^10.2.4",
     "trim-newlines": "^5.0.0",
     "ini": "^6.0.0",
     "async": "^3.2.6",
