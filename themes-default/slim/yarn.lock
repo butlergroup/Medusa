@@ -7930,10 +7930,10 @@ known-css-properties@^0.21.0:
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.21.0.tgz#15fbd0bbb83447f3ce09d8af247ed47c68ede80d"
   integrity sha512-sZLUnTqimCkvkgRS+kbPlYW5o8q5w1cu+uIisKpEWkj31I8mx8kNG162DwRav8Zirkva6N5uoFsm9kzK4mUXjw==
 
-known-css-properties@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.36.0.tgz#5c4365f3c9549ca2e813d2e729e6c47ef6a6cb60"
-  integrity sha512-A+9jP+IUmuQsNdsLdcg6Yt7voiMF/D4K83ew0OpJtpu+l34ef7LaohWV0Rc6KNvzw6ZDizkqfyB5JznZnzuKQA==
+known-css-properties@^0.37.0:
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.37.0.tgz#10ebe49b9dbb6638860ff8a002fb65a053f4aec5"
+  integrity sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==
 
 last-run@^2.0.0:
   version "2.0.0"
@@ -8350,7 +8350,7 @@ mdn-data@2.0.4:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
   integrity sha512-iV3XNKw06j5Q7mi6h+9vbx23Tv7JkjEVgKHW4pimwyDGWm0OIQntJJ+u1C6mg6mK1EaTv42XQ7w76yuzH7M2cA==
 
-mdn-data@2.27.1, mdn-data@^2.21.0:
+mdn-data@2.27.1, mdn-data@^2.25.0:
   version "2.27.1"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.27.1.tgz#e37b9c50880b75366c4d40ac63d9bbcacdb61f0e"
   integrity sha512-9Yubnt3e8A0OKwxYSXyhLymGW4sCufcLG6VdiDdUGVkPhpqLxlvP5vl1983gQjJl3tqbrM731mjaZaP68AgosQ==
@@ -9781,7 +9781,7 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.5:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-selector-parser@^7.0.0, postcss-selector-parser@^7.1.0, postcss-selector-parser@^7.1.1:
+postcss-selector-parser@^7.0.0, postcss-selector-parser@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-7.1.1.tgz#e75d2e0d843f620e5df69076166f4e16f891cb9f"
   integrity sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==
@@ -10495,10 +10495,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@16.0.6:
-  version "16.0.6"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-16.0.6.tgz#913b05607d06c386bc37870494e1e3a3e091fd3b"
-  integrity sha512-sglGzId5gmlfxNs4gK2U3h7HlVRfx278YK6Ono5lwzuvi1jxig80YiuHkaDBVsYIKFhx8wN7XSCI0M2IDS/3qA==
+sass-loader@16.0.7:
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-16.0.7.tgz#d1f8723b795805831d41b5825e3d9cd72cb939e7"
+  integrity sha512-w6q+fRHourZ+e+xA1kcsF27iGM6jdB8teexYCfdUw0sYgcDNeZESnDNT9sUmmPm3ooziwUJXGwZJSTF3kOdBfA==
   dependencies:
     neo-async "^2.6.2"
 
@@ -11227,18 +11227,18 @@ stylelint-config-standard@22.0.0:
   dependencies:
     stylelint-config-recommended "^5.0.0"
 
-stylelint-scss@6.12.1:
-  version "6.12.1"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-6.12.1.tgz#7de9980a7c9acb7a3f203498e7296526cb52ffa0"
-  integrity sha512-UJUfBFIvXfly8WKIgmqfmkGKPilKB4L5j38JfsDd+OCg2GBdU0vGUV08Uw82tsRZzd4TbsUURVVNGeOhJVF7pA==
+stylelint-scss@6.14.0:
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-6.14.0.tgz#b3f69e6e6236807aef021caf995fdf00255d80f0"
+  integrity sha512-ZKmHMZolxeuYsnB+PCYrTpFce0/QWX9i9gh0hPXzp73WjuIMqUpzdQaBCrKoLWh6XtCFSaNDErkMPqdjy1/8aA==
   dependencies:
     css-tree "^3.0.1"
     is-plain-object "^5.0.0"
-    known-css-properties "^0.36.0"
-    mdn-data "^2.21.0"
+    known-css-properties "^0.37.0"
+    mdn-data "^2.25.0"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.6"
-    postcss-selector-parser "^7.1.0"
+    postcss-selector-parser "^7.1.1"
     postcss-value-parser "^4.2.0"
 
 stylelint@13.13.1:
