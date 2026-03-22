@@ -112,11 +112,11 @@
     "node-gyp": "12.2.0",
     "nyc": "18.0.0",
     "stylelint": "13.13.1",
-    "stylelint-config-standard": "23.0.0",
+    "stylelint-config-standard": "22.0.0",
     "timekeeper": "2.3.1",
     "vue-jest": "3.0.7",
     "vue-loader": "15.11.1",
-    "webpack": "5.102.1",
+    "webpack": "5.105.4",
     "webpack-cli": "6.0.1"
   },
   "resolutions": {
