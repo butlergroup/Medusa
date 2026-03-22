@@ -16,15 +16,15 @@
     "dredd": "14.1.0"
   },
   "resolutions": {
-    "underscore": "^1.13.7",
+    "underscore": "^1.13.8",
     "minimist": "^1.2.8",
     "getobject": "^1.1.1",
-    "form-data": "^4.0.4",
-    "jsonpath-plus": "^10.3.0",
+    "form-data": "^4.0.5",
+    "jsonpath-plus": "^10.4.0",
     "json-pointer": "^0.6.2",
-    "@babel/traverse": "^7.28.5",
+    "@babel/traverse": "^7.29.0",
     "async": "^3.2.6",
-    "tough-cookie": "^6.0.0",
+    "tough-cookie": "^6.0.1",
     "vue-template-compiler": "^2.7.16"
   }
 }
