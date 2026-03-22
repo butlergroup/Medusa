@@ -59,7 +59,7 @@
     "vue-jwt-decode": "0.1.0",
     "vue-lazyload": "3.0.0",
     "vue-meta": "2.4.0",
-    "vue-multiselect": "3.5.0",
+    "vue-multiselect": "2.1.9",
     "vue-native-websocket": "2.0.15",
     "vue-nav-tabs": "0.5.7",
     "vue-router": "3.6.5",
@@ -69,7 +69,7 @@
     "vue-truncate-collapsed": "3.0.1",
     "vuedraggable": "2.24.3",
     "vueisotope": "3.1.2",
-    "vuex": "3.6.2"
+    "vuex": "4.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
