@@ -14,10 +14,10 @@ pytest-tornado==0.8.1
 PyYAML==6.0.3
 setuptools==68.0.0
 six==1.17.0
-tox==4.50.3
+tox
 tox-gh-actions
 tornado==6.5.5
-urllib3<2.0.0
+urllib3<=2.6.3
 vcrpy
 mock
 requests-mock
