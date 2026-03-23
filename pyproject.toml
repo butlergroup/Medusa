@@ -31,7 +31,7 @@ dependencies = [
     "pygithub==2.9.0",
     "pyjwt==2.12.1",
     "pymediainfo==7.0.1",
-    "python-dateutil==2.9.0",
+    "python-dateutil==2.9.0.post0",
     "python-twitter==3.5",
     "pytimeparse",
     "pytrakt==3.4.35",
