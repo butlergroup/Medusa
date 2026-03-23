@@ -35,7 +35,7 @@ jobs:
         install: true
     - name: Docker meta
       id: meta
-      uses: docker/metadata-action@v3
+      uses: docker/metadata-action@v6
       with:
         images: ${{ github.repository_owner }}/medusa
         # tag with master or develop
