@@ -1,6 +1,6 @@
 adba @ https://github.com/pymedusa/adba/archive/37b0c74e76b40b3dbde29e71da75a1808eb121de.zip
 appdirs==1.4.4
-attrs==25.4.0
+attrs==26.1.0
 babelfish==0.6.1
 beautifulsoup4==4.14.3
 bencode.py==4.0.0
