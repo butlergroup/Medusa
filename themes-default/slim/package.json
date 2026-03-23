@@ -120,6 +120,7 @@
     "webpack-cli": "7.0.2"
   },
   "resolutions": {
+    "babel-traverse": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz",
     "underscore": "^1.13.8",
     "fast-xml-parser": "^5.5.8",
     "minimist": "^1.2.8",
