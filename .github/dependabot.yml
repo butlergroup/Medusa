@@ -23,6 +23,12 @@ updates:
     schedule:
       interval: "daily"
 
+  # Enable version updates for docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
     # Workflow files stored in the default location of `.github/workflows`
