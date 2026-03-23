@@ -801,12 +801,12 @@ requires-dist = [
     { name = "packaging", specifier = "==26.0.0" },
     { name = "profilehooks", specifier = "==1.13.0" },
     { name = "pygithub", specifier = "==2.9.0" },
-    { name = "pyjwt", specifier = "==2.12.0" },
+    { name = "pyjwt", specifier = "==2.12.1" },
     { name = "pymediainfo", specifier = "==7.0.1" },
     { name = "python-dateutil", specifier = "==2.9.0.post0" },
     { name = "python-twitter", specifier = "==3.5" },
     { name = "pytimeparse", url = "https://github.com/pymedusa/pytimeparse/archive/8f2832597235c6ec98c44de4dab3274927f67e29.zip" },
-    { name = "pytrakt", specifier = "==3.4.35" },
+    { name = "pytrakt", specifier = "==4.2.3" },
     { name = "pyyaml", specifier = "==6.0.3" },
     { name = "rarfile", specifier = "==4.2" },
     { name = "rebulk", specifier = "==3.2.0" },
@@ -990,11 +990,14 @@ wheels = [
 
 [[package]]
 name = "pyjwt"
-version = "2.12.0"
+version = "2.12.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a8/10/e8192be5f38f3e8e7e046716de4cae33d56fd5ae08927a823bb916be36c1/pyjwt-2.12.0.tar.gz", hash = "sha256:2f62390b667cd8257de560b850bb5a883102a388829274147f1d724453f8fb02", size = 102511, upload-time = "2026-03-12T17:15:30.831Z" }
+dependencies = [
+    { name = "typing-extensions", marker = "python_full_version < '3.11'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c2/27/a3b6e5bf6ff856d2509292e95c8f57f0df7017cf5394921fc4e4ef40308a/pyjwt-2.12.1.tar.gz", hash = "sha256:c74a7a2adf861c04d002db713dd85f84beb242228e671280bf709d765b03672b", size = 102564, upload-time = "2026-03-13T19:27:37.25Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/15/70/70f895f404d363d291dcf62c12c85fdd47619ad9674ac0f53364d035925a/pyjwt-2.12.0-py3-none-any.whl", hash = "sha256:9bb459d1bdd0387967d287f5656bf7ec2b9a26645d1961628cda1764e087fd6e", size = 29700, upload-time = "2026-03-12T17:15:29.257Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/7a/8dd906bd22e79e47397a61742927f6747fe93242ef86645ee9092e610244/pyjwt-2.12.1-py3-none-any.whl", hash = "sha256:28ca37c070cad8ba8cd9790cd940535d40274d22f80ab87f3ac6a713e6e8454c", size = 29726, upload-time = "2026-03-13T19:27:35.677Z" },
 ]
 
 [package.optional-dependencies]
@@ -1102,16 +1105,16 @@ sdist = { hash = "sha256:8ccc77934001dc94673496954703448c6b5e2b9d5495bc709bad143
 
 [[package]]
 name = "pytrakt"
-version = "3.4.35"
+version = "4.2.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecated" },
     { name = "requests" },
     { name = "requests-oauthlib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d3/28/69e178890a5fc5b2fbddd28f89a139c6bf7d097d93a89090aa9f78267d4f/pytrakt-3.4.35.tar.gz", hash = "sha256:2269567553df343dc29d419b089b6266d0c5af39834de9ba82881e979f7fc59e", size = 44598, upload-time = "2025-01-08T21:25:27.228Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/d7/cd4d77fc305460d90eb86a0b5b08f1143e5c9f0771cf7f4450c34c801e68/pytrakt-4.2.3.tar.gz", hash = "sha256:d24fbc2715ecabb56aa083bb1f7e0bcb1fd6f45f009488981db7f539c740dc1b", size = 47020, upload-time = "2026-03-01T21:01:42.065Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8b/12/e66c666a73f91be20cdc42e673979958d2633320bc96e71f0d6daf9d3e77/pytrakt-3.4.35-py3-none-any.whl", hash = "sha256:f6888545ebce4e45b85104a5d4eb37b00fbcbca5510301bb6badc91e6d4bcfe1", size = 41229, upload-time = "2025-01-08T21:25:25.908Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/eb/17683e3867dc2734306284c1b6b15532f4ed8c3b93a063a0be412d1ba812/pytrakt-4.2.3-py3-none-any.whl", hash = "sha256:7c4549f2b3c6d88b4c65f4185712ec8341765c848c3ae4a94ec0c890643cebfb", size = 43080, upload-time = "2026-03-01T21:01:39.781Z" },
 ]
 
 [[package]]
