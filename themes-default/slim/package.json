@@ -121,6 +121,7 @@
   },
   "resolutions": {
     "underscore": "^1.13.8",
+    "serialize-javascript": "^7.0.5",
     "fast-xml-parser": "^5.5.8",
     "minimist": "^1.2.8",
     "getobject": "^1.1.1",

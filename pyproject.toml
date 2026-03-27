@@ -57,3 +57,6 @@ dependencies = [
 adba = { url = "https://github.com/pymedusa/adba/archive/37b0c74e76b40b3dbde29e71da75a1808eb121de.zip" }
 pytimeparse = { url = "https://github.com/pymedusa/pytimeparse/archive/8f2832597235c6ec98c44de4dab3274927f67e29.zip" }
 tvdbapiv2 = { url = "https://github.com/pymedusa/tvdbv2/archive/d6d0e9d98071c2d646beb997b336edbb0e98dfb7.zip" }
+
+[tool.uv]
+override-dependencies = ["cryptography==46.0.6"]
