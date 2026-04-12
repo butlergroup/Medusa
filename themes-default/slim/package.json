@@ -122,7 +122,7 @@
   "resolutions": {
     "underscore": "^1.13.8",
     "serialize-javascript": "^7.0.5",
-    "fast-xml-parser": "^5.5.8",
+    "fast-xml-parser": "^5.5.11",
     "minimist": "^1.2.8",
     "getobject": "^1.1.1",
     "form-data": "^4.0.5",
@@ -130,11 +130,11 @@
     "json-pointer": "^0.6.2",
     "vue-template-compiler": "^2.7.16",
     "tough-cookie": "^6.0.1",
-    "postcss": "^8.5.8",
+    "postcss": "^8.5.9",
     "picomatch": ">= 4.0.4",
     "braces": "^3.0.3",
     "strip-ansi": "^6.0.1",
-    "string-width": "^4.2.3"
+    "string-width": "^5.1.2"
   },
   "stylelint": {
     "plugins": [
