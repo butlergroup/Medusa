@@ -131,6 +131,7 @@
     "vue-template-compiler": "^2.7.16",
     "tough-cookie": "^6.0.1",
     "postcss": "^8.5.8",
+    "picomatch": ">= 4.0.4",
     "braces": "^3.0.3",
     "strip-ansi": "^6.0.1",
     "string-width": "^4.2.3"
