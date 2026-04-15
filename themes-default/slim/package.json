@@ -121,6 +121,7 @@
   },
   "resolutions": {
     "underscore": "^1.13.8",
+    "follow-redirects": "^1.16.0",
     "babel-traverse": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz",
     "serialize-javascript": "^7.0.5",
     "fast-xml-parser": "^5.5.11",
