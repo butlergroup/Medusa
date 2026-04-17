@@ -3,6 +3,7 @@
 - Added Microsoft Defender For Devops workflow
 - Added OSV-Scanner workflow (scheduled)
 - Added dependabot.yml workflow
+- Removed support for Python 3.9
 
 #### Improvements
 - Modified scorecard.yml with concurrency settings and removed scheduled run
@@ -12,7 +13,7 @@
 - All yarn.lock files updated
 
 #### Fixes
-- 
+- Dependency resolutions added to package.json, themes-default/slim/package.json, and .build/package.json to fix as many security vulnerabilities with dependencies as possible without build/test errors
 
 -----
 
