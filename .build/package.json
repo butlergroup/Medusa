@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "bower": "1.8.14",
-    "grunt": "1.6.1",
+    "grunt": "1.6.2",
     "grunt-bower-concat": "1.0.0",
     "grunt-bower-task": "0.6.2",
     "grunt-cli": "1.5.0",
