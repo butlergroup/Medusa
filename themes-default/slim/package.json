@@ -33,7 +33,7 @@
     "@johmun/vue-tags-input": "2.1.0",
     "@ladjs/country-language": "1.0.3",
     "@popperjs/core": "2.11.8",
-    "axios": "1.15.0",
+    "axios": "1.15.2",
     "bootstrap": "5.3.8",
     "date-fns": "2.30.0",
     "is-visible": "2.2.0",
