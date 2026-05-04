@@ -21,44 +21,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
-    # https://github.com/docker/setup-qemu-action
-    - name: Set up QEMU
-      uses: docker/setup-qemu-action@v4
-      with:
-        platforms: ${{ env.PLATFORMS }}
-    # https://github.com/docker/setup-buildx-action
-    - name: Set up Docker Buildx
-      id: buildx
-      uses: docker/setup-buildx-action@v4
-      with:
-        install: true
-    - name: Docker meta
-      id: meta
-      uses: docker/metadata-action@v6
-      with:
-        images: ${{ github.repository_owner }}/medusa
-        # tag with master or develop
-        tags: |
-          type=ref,event=branch
-        # also tag master as latest
-        flavor: latest=${{ github.ref_name == 'master' }}
-    - name: Log into Dockerhub
-      uses: docker/login-action@v4
-      with:
-        username: ${{ secrets.DOCKER_USER }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-    - name: Build Docker image
-      uses: docker/build-push-action@v7
-      with:
-        context: .
-        file: Dockerfile
-        platforms: ${{ env.PLATFORMS }}
-        tags: ${{ steps.meta.outputs.tags }}
-        labels: ${{ steps.meta.outputs.labels }}
-        push: true
-        pull: true
-        build-args: |
-          GIT_COMMIT=${{ github.sha }}
-          GIT_BRANCH=${{ github.ref_name }}
-          BUILD_DATE=${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.created'] }}
+      - uses: actions/checkout@v6
+      # https://github.com/docker/setup-qemu-action
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
+        with:
+          platforms: ${{ env.PLATFORMS }}
+      # https://github.com/docker/setup-buildx-action
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v4
+        with:
+          install: true
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ${{ github.repository_owner }}/medusa
+          # tag with master or develop
+          tags: |
+            type=ref,event=branch
+          # also tag master as latest
+          flavor: latest=${{ github.ref_name == 'master' }}
+      - name: Log into Dockerhub
+        uses: docker/login-action@v4
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build Docker image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: Dockerfile
+          platforms: ${{ env.PLATFORMS }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          push: true
+          pull: true
+          build-args: |
+            GIT_COMMIT=${{ github.sha }}
+            GIT_BRANCH=${{ github.ref_name }}
+            BUILD_DATE=${{ fromJSON(steps.meta.outputs.json).labels['org.opencontainers.image.created'] }}
