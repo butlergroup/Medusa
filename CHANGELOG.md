@@ -12,8 +12,6 @@
 - uv.lock file updated
 - All dependencies in package.json, themes-default/slim/package.json, and .build/package.json have been updated to the latest possible version without build/test errors
 - All yarn.lock files updated
-- bumped PYTHON_VERSION=3.13 in Dockerfile
-- bumped ALPINE_VERSION=3.23 in Dockerfile
 
 #### Fixes
 - Dependency resolutions added to package.json, themes-default/slim/package.json, and .build/package.json to fix as many security vulnerabilities with dependencies as possible without build/test errors
