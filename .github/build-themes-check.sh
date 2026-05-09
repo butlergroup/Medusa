@@ -1,5 +1,5 @@
-#!/bin/bash
-set -e
+#!/usr/bin/env bash
+set -euo pipefail
 
 # This script expects to be run in: `Medusa/themes-default/slim`
 path_to_built_themes="../../themes/"
@@ -17,55 +17,63 @@ run_verbose () {
     "$@"
 }
 
+# Cross-platform directory size function
 get_size () {
-    du -sk $1 | cut -f1
+    du -sk "$1" | cut -f1
 }
 
 # Determine if and how to build the Webpack bundle.
 build_cmd=""
 build_mode=""
+
 # ${GITHUB_BASE_REF##*/} is a PR's target branch.
 # Do not build on other branches because it will cause conflicts on pull requests,
 # where push builds build for development and PR builds build for production.
 if [[ ${GITHUB_BASE_REF##*/} == "master" ]]; then
-    build_cmd="yarn build"
+    build_cmd="build"
     build_mode="production"
 elif [[ ${GITHUB_BASE_REF##*/} == "develop" ]]; then
-    build_cmd="yarn dev"
+    build_cmd="dev"
     build_mode="development"
 fi
 
 # Keep track of the current themes size.
-size_before=$(get_size $path_to_built_themes)
+size_before=$(get_size "$path_to_built_themes")
 
 # Build themes.
-[[ -n $build_cmd ]] && run_verbose "$build_cmd"
-run_verbose "yarn gulp sync"
+if [[ -n "$build_cmd" ]]; then
+    run_verbose yarn "$build_cmd"
+fi
+
+run_verbose yarn gulp sync
 
 # Normalize line endings in changed files
 git status --porcelain -- "$path_to_built_themes" | while read -r line; do
     file="${line:3}"
+
     if [[ -f "../../$file" ]]; then
         "${SED_INPLACE[@]}" 's/\r$//' "../../$file"
     fi
 done
 
 # Keep track of the new themes size.
-size_after=$(get_size $path_to_built_themes)
+size_after=$(get_size "$path_to_built_themes")
 
 echo "Themes size before: $size_before"
 echo "Themes size after: $size_after"
 
 # Check if the themes changed.
-status="$(git status --porcelain -- $path_to_built_themes)";
-if [[ -n $status && $size_before != $size_after ]]; then
-    if [[ -z $build_mode ]]; then
+status="$(git status --porcelain -- "$path_to_built_themes")"
+
+if [[ -n "$status" && "$size_before" != "$size_after" ]]; then
+    if [[ -z "$build_mode" ]]; then
         echo "Please build the themes"
         echo "-----------------------"
     else
-        echo "Please build the themes (mode: $build_mode) "
-        echo "--------------------------------------------"
+        echo "Please build the themes (mode: $build_mode)"
+        echo "-------------------------------------------"
     fi
+
     echo "$status"
     exit 1
 fi
