@@ -10,7 +10,7 @@ on:
 
   # https://github.com/ossf/scorecard/blob/main/docs/checks.md#maintained
   push:
-    branches: [ master, develop ]
+    branches: [master, develop]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

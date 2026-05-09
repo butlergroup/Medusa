@@ -5,6 +5,7 @@
 - Added dependabot.yml workflow
 - Removed support for Python 3.9
 - Added FUNDING.yml
+- Add support for Node.js 26
 
 #### Improvements
 - Modified scorecard.yml with concurrency settings and removed scheduled run
