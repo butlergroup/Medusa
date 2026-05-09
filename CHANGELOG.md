@@ -1,6 +1,6 @@
 ## 1.0.26 
 #### New Features
-- Added Microsoft Defender For Devops workflow
+- Added Microsoft Defender For Devops workflow 
 - Added OSV-Scanner workflow (scheduled)
 - Added dependabot.yml workflow
 - Removed support for Python 3.9
