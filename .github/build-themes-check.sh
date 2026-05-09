@@ -4,14 +4,21 @@ set -e
 # This script expects to be run in: `Medusa/themes-default/slim`
 path_to_built_themes="../../themes/"
 
+# Detect platform-specific sed syntax
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    SED_INPLACE=(sed -i '')
+else
+    SED_INPLACE=(sed -i)
+fi
+
 # Helper function to print the command before running it.
 run_verbose () {
     echo "\$ $*"
-    eval $*
+    "$@"
 }
 
 get_size () {
-    du -sb $1 | cut -f1
+    du -sk $1 | cut -f1
 }
 
 # Determine if and how to build the Webpack bundle.
@@ -36,9 +43,11 @@ size_before=$(get_size $path_to_built_themes)
 run_verbose "yarn gulp sync"
 
 # Normalize line endings in changed files
-changed_files=$(git status --porcelain -- $path_to_built_themes | sed s/^...//)
-for file in $changed_files; do
-    sed -i 's/\r$//g' ../../$file;
+git status --porcelain -- "$path_to_built_themes" | while read -r line; do
+    file="${line:3}"
+    if [[ -f "../../$file" ]]; then
+        "${SED_INPLACE[@]}" 's/\r$//' "../../$file"
+    fi
 done
 
 # Keep track of the new themes size.
