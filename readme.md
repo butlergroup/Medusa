@@ -66,7 +66,7 @@
  Start [here](https://github.com/pymedusa/Medusa/wiki/Installation-&-Configuration-Guides) to read the installation guides for different setups.
 
 #### Installation - Docker
- There's a direct build available on [Dockerhub](https://hub.docker.com/r/pymedusa/medusa/) which is updated directly from this repo on every commit to master.
+ There's a direct build available on [Dockerhub](https://hub.docker.com/r/butlergroup/medusa/) which is updated directly from this repo on every commit to master.
 
  For alternate architectures, the [linuxserver.io](https://www.linuxserver.io) team have kindly produced docker images for X86, armhf and aarch64 platforms. This is built from an older intermediary Dockerfile.
 
