@@ -29,7 +29,7 @@
     "ini": "^7.0.0",
     "async": "^3.2.6",
     "path-parse": "^1.0.7",
-    "hosted-git-info": "^9.0.3",
+    "hosted-git-info": "^10.1.1",
     "underscore.string": "^3.3.6"
   }
 }
