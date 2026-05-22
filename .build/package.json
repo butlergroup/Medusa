@@ -26,7 +26,7 @@
     "semver": "^7.8.1",
     "minimatch": "^10.2.5",
     "trim-newlines": "^5.0.0",
-    "ini": "^6.0.0",
+    "ini": "^7.0.0",
     "async": "^3.2.6",
     "path-parse": "^1.0.7",
     "hosted-git-info": "^9.0.3",
