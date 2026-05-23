@@ -6,6 +6,25 @@ permissions:
 on:
   push:
     branches: [master, develop]
+    paths:
+      - Dockerfile
+      - "./*.py"
+      - "**/package.json"
+      - "**/yarn.lock"
+      - "**/pyproject.toml"
+      - "**/requirements.txt"
+      - "**/test_requirements.txt"
+      - "**/uv.lock"
+      - "**/.build/**"
+      - "**/dredd/**"
+      - "**/ext/**"
+      - "**/hooks/**"
+      - "**/lib/**"
+      - "**/medusa/**"
+      - "**/runscripts/**"
+      - "**/tests/**"
+      - "**/themes/**"
+      - "**/themes-default/**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

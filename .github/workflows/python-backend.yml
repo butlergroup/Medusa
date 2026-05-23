@@ -6,6 +6,22 @@ permissions:
 on:
   push:
     branches: [master, develop]
+    paths:
+      - "./*.py"
+      - "**/pyproject.toml"
+      - "**/requirements.txt"
+      - "**/test_requirements.txt"
+      - "**/uv.lock"
+      - "**/.build/**"
+      - "**/dredd/**"
+      - "**/ext/**"
+      - "**/hooks/**"
+      - "**/lib/**"
+      - "**/medusa/**"
+      - "**/runscripts/**"
+      - "**/tests/**"
+      - "**/themes/**"
+      - "**/themes-default/**"
   pull_request:
     branches: [master, develop]
 
