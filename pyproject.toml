@@ -43,7 +43,7 @@ dependencies = [
     "requests-toolbelt==1.0.0",
     "six==1.17.0",
     "subliminal==2.2.1",
-    "tmdbsimple==2.9.1",
+    "tmdbsimple==2.9.4",
     "tornado==6.5.5",
     "tornroutes==0.5.1",
     "trans==2.1.0",
