@@ -736,7 +736,7 @@ requires-dist = [
     { name = "requests-toolbelt", specifier = "==1.0.0" },
     { name = "six", specifier = "==1.17.0" },
     { name = "subliminal", specifier = "==2.2.1" },
-    { name = "tmdbsimple", specifier = "==2.9.4" },
+    { name = "tmdbsimple", specifier = "==2.9.6" },
     { name = "tornado", specifier = "==6.5.5" },
     { name = "tornroutes", specifier = "==0.5.1" },
     { name = "trans", specifier = "==2.1.0" },
@@ -1186,14 +1186,14 @@ wheels = [
 
 [[package]]
 name = "tmdbsimple"
-version = "2.9.4"
+version = "2.9.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7f/02/be626ec65e1536232f8763c738caa7a7b877bf184ea08a7d2183ce95f021/tmdbsimple-2.9.4.tar.gz", hash = "sha256:c789888ffb8050eebf53c522cc4f6f8e5daa4b2195584237f4df85fd9448f6af", size = 42387, upload-time = "2026-05-24T22:15:37.292Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/98/d5e8fa15647eda4410d120e869f42fa8674a758742937baa7bfc327112a2/tmdbsimple-2.9.6.tar.gz", hash = "sha256:68ae5700a6297c66fe6d2eb849f1b76d42aa759adee51df59e2a86970055ee31", size = 42743, upload-time = "2026-05-25T23:52:34.385Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/98/18/614520fdda2b6a549c41ebe9edca706d8224ba622910259ac93dbc5a8089/tmdbsimple-2.9.4-py3-none-any.whl", hash = "sha256:0c3145f8c50c84034b44835b3dca3f365dd4f486458dabf021dcf9ba335f46cb", size = 40028, upload-time = "2026-05-24T22:15:36.132Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/53/ef0e08fcba60fce2ed7541c7aac682f7ed1bcdcf7b8954b01839996d1b0c/tmdbsimple-2.9.6-py3-none-any.whl", hash = "sha256:42052f2a77cd237553a620b1f090f54e9f5ea3e5a8d8a4081cb12e77c5dc1c4f", size = 40197, upload-time = "2026-05-25T23:52:33.235Z" },
 ]
 
 [[package]]
