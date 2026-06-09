@@ -9,7 +9,7 @@ dependencies = [
     "appdirs==1.4.4",
     "attrs==26.1.0",
     "babelfish==0.6.1",
-    "beautifulsoup4==4.14.3",
+    "beautifulsoup4==4.15.0",
     "bencode-py==4.0.0",
     "cachecontrol==0.14.3",
     "certifi==2026.5.20",
