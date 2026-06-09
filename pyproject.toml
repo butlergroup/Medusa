@@ -44,7 +44,7 @@ dependencies = [
     "six==1.17.0",
     "subliminal==2.2.1",
     "tmdbsimple==2.9.6",
-    "tornado==6.5.6",
+    "tornado==6.5.7",
     "tornroutes==0.5.1",
     "trans==2.1.0",
     "ttl-cache==1.6",
