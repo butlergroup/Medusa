@@ -530,11 +530,11 @@ wheels = [
 
 [[package]]
 name = "jsonrpclib-pelix"
-version = "1.0.0"
+version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/1e/a3/a5c0826706ac0929673cf1d92111c10282801580795ec35d829af1e5c8fa/jsonrpclib_pelix-1.0.0.tar.gz", hash = "sha256:5b1ea14da6e371dbabedb1abed0a8ba1cf596428350cd9d0188f3c6c6c8ef784", size = 7793582, upload-time = "2025-11-09T17:39:15.302Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/6d/927abe6f53a8b1db48dbbcd35b7d762431952d5f760f500287c6952540fa/jsonrpclib_pelix-1.1.0.tar.gz", hash = "sha256:379a3c9b3dd478727419587aa7cf14bb6ff0e64301decc0ffa98f710f6bfec1e", size = 70500, upload-time = "2026-05-30T19:59:45.754Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/97/a117906d00e83ba63e3957f4a10e4ca2dc1d5eda5078b84179d289cb8f42/jsonrpclib_pelix-1.0.0-py3-none-any.whl", hash = "sha256:4f775181bbb1dcc0c2742e754b2f0e69354ef08eedac155fb163ee5a8ab7b835", size = 42817, upload-time = "2025-11-09T17:39:08.272Z" },
+    { url = "https://files.pythonhosted.org/packages/0f/2b/62d35a49a04a51906fdcaa1e4b5707bb8a8105479b53843ec43c24c5e13a/jsonrpclib_pelix-1.1.0-py3-none-any.whl", hash = "sha256:487b5d0b503abff8a16b5f19bff4040725e8958f381611ff4f47029482012a9f", size = 43444, upload-time = "2026-05-30T19:59:44.568Z" },
 ]
 
 [[package]]
@@ -716,7 +716,7 @@ requires-dist = [
     { name = "feedparser", specifier = "==6.0.12" },
     { name = "gntp", specifier = "==1.0.3" },
     { name = "html5lib", specifier = "==1.1" },
-    { name = "jsonrpclib-pelix", specifier = "==1.0.0" },
+    { name = "jsonrpclib-pelix", specifier = "==1.1.0" },
     { name = "mako", specifier = "==1.3.12" },
     { name = "markdown2", specifier = "==2.5.5" },
     { name = "packaging", specifier = "==26.2.0" },
@@ -736,7 +736,7 @@ requires-dist = [
     { name = "requests-toolbelt", specifier = "==1.0.0" },
     { name = "six", specifier = "==1.17.0" },
     { name = "subliminal", specifier = "==2.2.1" },
-    { name = "tmdbsimple", specifier = "==2.9.1" },
+    { name = "tmdbsimple", specifier = "==2.9.6" },
     { name = "tornado", specifier = "==6.5.7" },
     { name = "tornroutes", specifier = "==0.5.1" },
     { name = "trans", specifier = "==2.1.0" },
@@ -1186,14 +1186,14 @@ wheels = [
 
 [[package]]
 name = "tmdbsimple"
-version = "2.9.1"
+version = "2.9.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a1/87/3309cb03df1c9f9895fccd87e9875050f19e2cfec5a50b9d72e50d420fc8/tmdbsimple-2.9.1.tar.gz", hash = "sha256:636eaaaec82027929e8a91c2166e01f552ec63f869bf1fcd65aa561b705c7464", size = 33772, upload-time = "2022-01-25T21:48:36.477Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/98/d5e8fa15647eda4410d120e869f42fa8674a758742937baa7bfc327112a2/tmdbsimple-2.9.6.tar.gz", hash = "sha256:68ae5700a6297c66fe6d2eb849f1b76d42aa759adee51df59e2a86970055ee31", size = 42743, upload-time = "2026-05-25T23:52:34.385Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/dd/ade05d202db728b23e54aa0959622d090776023917e7308c1b2469a07b76/tmdbsimple-2.9.1-py3-none-any.whl", hash = "sha256:b52387c667bad1dccf5f776a576a971622a111fc08b7f731e360fabcc9860616", size = 38954, upload-time = "2022-01-25T21:48:34.653Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/53/ef0e08fcba60fce2ed7541c7aac682f7ed1bcdcf7b8954b01839996d1b0c/tmdbsimple-2.9.6-py3-none-any.whl", hash = "sha256:42052f2a77cd237553a620b1f090f54e9f5ea3e5a8d8a4081cb12e77c5dc1c4f", size = 40197, upload-time = "2026-05-25T23:52:33.235Z" },
 ]
 
 [[package]]
