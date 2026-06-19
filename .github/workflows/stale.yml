@@ -35,3 +35,5 @@ jobs:
             as stale."
           stale-pr-label: "no-pr-activity"
           close-pr-message: "This pull request has had no activity for 67 days. Closing."
+          exempt-issue-labels: 'keep-open'
+          exempt-pr-labels: 'keep-open'
