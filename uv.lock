@@ -727,7 +727,7 @@ requires-dist = [
     { name = "python-dateutil", specifier = "==2.9.0.post0" },
     { name = "python-twitter", specifier = "==3.5" },
     { name = "pytimeparse", url = "https://github.com/pymedusa/pytimeparse/archive/8f2832597235c6ec98c44de4dab3274927f67e29.zip" },
-    { name = "pytrakt", specifier = "==4.2.3" },
+    { name = "pytrakt", specifier = "==4.3.0" },
     { name = "pyyaml", specifier = "==6.0.3" },
     { name = "rarfile", specifier = "==4.2" },
     { name = "rebulk", specifier = "==3.2.0" },
@@ -997,16 +997,16 @@ sdist = { hash = "sha256:8ccc77934001dc94673496954703448c6b5e2b9d5495bc709bad143
 
 [[package]]
 name = "pytrakt"
-version = "4.2.3"
+version = "4.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecated" },
     { name = "requests" },
     { name = "requests-oauthlib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f9/d7/cd4d77fc305460d90eb86a0b5b08f1143e5c9f0771cf7f4450c34c801e68/pytrakt-4.2.3.tar.gz", hash = "sha256:d24fbc2715ecabb56aa083bb1f7e0bcb1fd6f45f009488981db7f539c740dc1b", size = 47020, upload-time = "2026-03-01T21:01:42.065Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/9f/7f6e4494e11c933ca11e4f352e504f08f4aebca388887f679149f217cb2b/pytrakt-4.3.0.tar.gz", hash = "sha256:796dbf88f6b595d944dde5ed96513662250686e9fed37e31140d1dcaeec8ef90", size = 47484, upload-time = "2026-06-08T11:43:41.34Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/eb/17683e3867dc2734306284c1b6b15532f4ed8c3b93a063a0be412d1ba812/pytrakt-4.2.3-py3-none-any.whl", hash = "sha256:7c4549f2b3c6d88b4c65f4185712ec8341765c848c3ae4a94ec0c890643cebfb", size = 43080, upload-time = "2026-03-01T21:01:39.781Z" },
+    { url = "https://files.pythonhosted.org/packages/42/19/a6316ca7b0edf1015cf2ea6a4df315de10d6d3683083c1db63ac2ba21168/pytrakt-4.3.0-py3-none-any.whl", hash = "sha256:0c8f85d11bb951eef51fa0d9bb2f13c643735c0088ef59f3c8221fe83bf17e7a", size = 43090, upload-time = "2026-06-08T11:43:40.211Z" },
 ]
 
 [[package]]
