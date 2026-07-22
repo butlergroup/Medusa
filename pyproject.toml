@@ -42,7 +42,7 @@ dependencies = [
     "requests-oauthlib==2.0.0",
     "requests-toolbelt==1.0.0",
     "six==1.17.0",
-    "subliminal==2.2.1",
+    "subliminal==2.7.0",
     "tmdbsimple==2.9.6",
     "tornado==6.5.7",
     "tornroutes==0.5.1",
