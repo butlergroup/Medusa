@@ -88,11 +88,11 @@ wheels = [
 
 [[package]]
 name = "certifi"
-version = "2026.6.17"
+version = "2026.7.22"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz", hash = "sha256:024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432", size = 134594, upload-time = "2026-06-17T10:31:07.894Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz", hash = "sha256:741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55", size = 138112, upload-time = "2026-07-22T03:35:12.644Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/2f/c5464532e965badff2f4c4c1a3a83f5697f0d7c407ed0cda44aaa99bb451/certifi-2026.6.17-py3-none-any.whl", hash = "sha256:2227dcbaafe0d2f59279d1762ddddc37783ed4354594f194ffc31d20f41fc3db", size = 133289, upload-time = "2026-06-17T10:31:06.348Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl", hash = "sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775", size = 136983, upload-time = "2026-07-22T03:35:11.276Z" },
 ]
 
 [[package]]
@@ -705,7 +705,7 @@ requires-dist = [
     { name = "beautifulsoup4", specifier = "==4.15.0" },
     { name = "bencode-py", specifier = "==4.1.0" },
     { name = "cachecontrol", specifier = "==0.14.3" },
-    { name = "certifi", specifier = "==2026.6.17" },
+    { name = "certifi", specifier = "==2026.7.22" },
     { name = "cloudscraper", specifier = "==1.2.71" },
     { name = "configobj", specifier = "==5.0.9" },
     { name = "contextlib2", specifier = "==21.6.0" },
@@ -727,9 +727,9 @@ requires-dist = [
     { name = "python-dateutil", specifier = "==2.9.0.post0" },
     { name = "python-twitter", specifier = "==3.5" },
     { name = "pytimeparse", url = "https://github.com/pymedusa/pytimeparse/archive/8f2832597235c6ec98c44de4dab3274927f67e29.zip" },
-    { name = "pytrakt", specifier = "==4.4.4" },
+    { name = "pytrakt", specifier = "==4.4.5" },
     { name = "pyyaml", specifier = "==6.0.3" },
-    { name = "rarfile", specifier = "==4.3" },
+    { name = "rarfile", specifier = "==4.4" },
     { name = "rebulk", specifier = "==6.0.1" },
     { name = "requests", specifier = "==2.34.2" },
     { name = "requests-oauthlib", specifier = "==2.0.0" },
@@ -997,16 +997,16 @@ sdist = { hash = "sha256:8ccc77934001dc94673496954703448c6b5e2b9d5495bc709bad143
 
 [[package]]
 name = "pytrakt"
-version = "4.4.4"
+version = "4.4.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecated" },
     { name = "requests" },
     { name = "requests-oauthlib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3d/eb/9f7c83b37459043628a95e7a821605e55e85a39022291d02717ccd92cf1c/pytrakt-4.4.4.tar.gz", hash = "sha256:5de637c36941d6e6378c749d03d70caf8ddf8f913a602d081f1d4966953a1ff2", size = 50499, upload-time = "2026-07-13T11:52:28.721Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5b/a9/ef44e0e93223e71d43d44d2ac677cadff7d7225478292bd70e1bc918c0e3/pytrakt-4.4.5.tar.gz", hash = "sha256:3576cd2b33921e105900fcd3dfddf0c2ac32ad451762c5d0daefc20c7218196d", size = 50740, upload-time = "2026-07-16T14:18:00.161Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/36/11/77d373b45bf614e92a77c5924c2abbd362130ecdc2e755d503139e9bea2e/pytrakt-4.4.4-py3-none-any.whl", hash = "sha256:24444089e60b4e8dd5fd74c4608e8aeb99a10dafcefaa271a72359e594c778cc", size = 45188, upload-time = "2026-07-13T11:52:27.568Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/90/4dbcb5ee797d139a669ba3bffd53ec08b23432090774ef332399f3c8d830/pytrakt-4.4.5-py3-none-any.whl", hash = "sha256:d833b6aa04359b302afba05026adcb13e3ed2d7d4dbdce7cbbbdd2d7cc979045", size = 45249, upload-time = "2026-07-16T14:17:59.13Z" },
 ]
 
 [[package]]
@@ -1075,11 +1075,11 @@ wheels = [
 
 [[package]]
 name = "rarfile"
-version = "4.3"
+version = "4.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/c6/80/442df102d81a10d31ec2cf73d6f411f5575e3bb7adc0aaa45cbe693a37b6/rarfile-4.3.tar.gz", hash = "sha256:0d8b5a7ffb9f8e9a7b002f2398905e4420c0cb373e799b48e48f418db9c8816a", size = 154855, upload-time = "2026-07-08T19:21:54.072Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/84/a00a5be12adbe5abb0094513ad6d3aefc80fe5dfa4a5604e22561d4b7d3b/rarfile-4.4.tar.gz", hash = "sha256:b7d29d671223cdc80e8b992df212d152ad88e6c961d4426c3fb2fefe8dd86fdf", size = 155437, upload-time = "2026-07-22T16:19:15.533Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/78/2d/4a161de993dab0baac89b8c5b9765f420e8cc5239c5c82e0f51cb41e5a74/rarfile-4.3-py3-none-any.whl", hash = "sha256:f9dd2f8bd811b2e30fb074aa176f972f51633aa41cf909db3f2921ed040e1128", size = 29583, upload-time = "2026-07-08T19:21:52.904Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/06/7135da7d7d662767aee9aeebaa360f4ad29f08d9198cc1b1632428114acd/rarfile-4.4-py3-none-any.whl", hash = "sha256:befb813c283fbcdd46dda2bad090f8272c8bb1de246d04cd570e9d890294d119", size = 29932, upload-time = "2026-07-22T16:19:14.559Z" },
 ]
 
 [[package]]
