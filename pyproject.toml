@@ -36,7 +36,7 @@ dependencies = [
     "pytimeparse",
     "pytrakt==4.4.5",
     "pyyaml==6.0.3",
-    "rarfile==4.4",
+    "rarfile==4.5",
     "rebulk==6.0.1",
     "requests==2.34.2",
     "requests-oauthlib==2.0.0",
