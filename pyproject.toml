@@ -26,7 +26,7 @@ dependencies = [
     "jsonrpclib-pelix==1.1.0",
     "mako==1.4.1",
     "markdown2==2.5.5",
-    "packaging==26.2.0",
+    "packaging==26.3",
     "profilehooks==1.13.0",
     "pygithub==2.9.1",
     "pyjwt==2.13.0",

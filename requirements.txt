@@ -19,7 +19,7 @@ html5lib==1.1
 jsonrpclib-pelix==1.1.0
 Mako==1.4.1
 markdown2==2.5.5
-packaging==26.2.0
+packaging==26.3
 profilehooks==1.13.0
 PyGithub==2.9.1
 PyJWT==2.13.0
