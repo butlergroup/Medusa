@@ -277,6 +277,21 @@ wheels = [
 
 [[package]]
 name = "click"
+version = "8.1.8"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.10'",
+]
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a", size = 226593, upload-time = "2024-12-21T18:38:44.339Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl", hash = "sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2", size = 98188, upload-time = "2024-12-21T18:38:41.666Z" },
+]
+
+[[package]]
+name = "click"
 version = "8.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
@@ -534,7 +549,19 @@ version = "3.15"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/82/77/7b3966d0b9d1d31a36ddf1746926a11dface89a83409bf1483f0237aa758/idna-3.15.tar.gz", hash = "sha256:ca962446ea538f7092a95e057da437618e886f4d349216d2b1e294abfdb65fdc", size = 199245, upload-time = "2026-05-12T22:45:57.011Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d2/23/408243171aa9aaba178d3e2559159c24c1171a641aa83b67bdd3394ead8e/idna-3.15-py3-none-any.whl", hash = "sha256:048adeaf8c2d788c40fee287673ccaa74c24ffd8dcf09ffa555a2fbb59f10ac8", size = 72340, upload-time = "2026-05-12T22:45:55.733Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl", hash = "sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea", size = 71008, upload-time = "2025-10-12T14:55:18.883Z" },
+]
+
+[[package]]
+name = "importlib-metadata"
+version = "4.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "zipp" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/55/12/ab288357b884ebc807e3f4eff63ce5ba6b941ba61499071bf19f1bbc7f7f/importlib_metadata-4.13.0.tar.gz", hash = "sha256:dd0173e8f150d6815e098fd354f6414b0f079af4644ddfe90c71e2fc6174346d", size = 50445, upload-time = "2022-10-01T17:09:15.698Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d0/98/c277899f5aa21f6e6946e1c83f2af650cbfee982763ffb91db07ff7d3a13/importlib_metadata-4.13.0-py3-none-any.whl", hash = "sha256:8a8a81bcf996e74fee46f0d16bd3eaa382a7eb20fd82445c3ad11f4090334116", size = 23010, upload-time = "2022-10-01T17:09:13.903Z" },
 ]
 
 [[package]]
@@ -698,7 +725,6 @@ dependencies = [
     { name = "tmdbsimple" },
     { name = "tornado" },
     { name = "tornroutes" },
-    { name = "trans" },
     { name = "ttl-cache" },
     { name = "tvdbapiv2" },
     { name = "urllib3" },
@@ -725,10 +751,10 @@ requires-dist = [
     { name = "feedparser", specifier = "==6.0.13" },
     { name = "gntp", specifier = "==1.0.3" },
     { name = "html5lib", specifier = "==1.1" },
-    { name = "jsonrpclib-pelix", specifier = "==1.1.0" },
+    { name = "jsonrpclib-pelix", specifier = "==0.4.3.4" },
     { name = "mako", specifier = "==1.3.12" },
-    { name = "markdown2", specifier = "==2.5.5" },
-    { name = "packaging", specifier = "==26.2.0" },
+    { name = "markdown2", specifier = "==2.5.4" },
+    { name = "packaging", specifier = "==25.0" },
     { name = "profilehooks", specifier = "==1.13.0" },
     { name = "pygithub", specifier = "==2.9.1" },
     { name = "pyjwt", specifier = "==2.13.0" },
@@ -748,7 +774,6 @@ requires-dist = [
     { name = "tmdbsimple", specifier = "==2.9.6" },
     { name = "tornado", specifier = "==6.5.7" },
     { name = "tornroutes", specifier = "==0.5.1" },
-    { name = "trans", specifier = "==2.1.0" },
     { name = "ttl-cache", specifier = "==1.6" },
     { name = "tvdbapiv2", url = "https://github.com/pymedusa/tvdbv2/archive/d6d0e9d98071c2d646beb997b336edbb0e98dfb7.zip" },
     { name = "urllib3", specifier = "==2.6.3" },
@@ -1287,12 +1312,6 @@ name = "tornroutes"
 version = "0.5.1"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ec/11/02feb23757ce075a2ba4a37548dacdfd863115c76cfd27c39cb448da8ec7/tornroutes-0.5.1.tar.gz", hash = "sha256:65e17f23c22642a9481a2adbd0129be6ce67b4d3db3ec23aecd2c5f34606815e", size = 1882, upload-time = "2015-03-01T05:40:35.856Z" }
-
-[[package]]
-name = "trans"
-version = "2.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3e/c1/368daee29d1c9b081c8c1eeda2335879c484021d795b12bd116bd134d98f/trans-2.1.0.tar.bz2", hash = "sha256:417d8f7862a4a01470bdf0ab2a96b60983e459d202c1b12e8df3fa563146b71f", size = 6864, upload-time = "2016-08-19T15:28:32.162Z" }
 
 [[package]]
 name = "ttl-cache"
