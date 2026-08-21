@@ -1,3 +1,26 @@
+## 1.0.27
+#### New Features
+- Added Microsoft Defender For Devops workflow
+- Added OSV-Scanner workflow (scheduled)
+- Added dependabot.yml workflow
+- Removed support for Python 3.9
+- Added FUNDING.yml
+- Add support for Node.js 26
+
+#### Improvements
+- Modified scorecard.yml with concurrency settings and removed scheduled run
+- All dependencies in pyproject.toml, requirements.txt, and test_requirements.txt have been updated to the latest possible version without build/test errors
+- uv.lock file updated
+- All dependencies in package.json, themes-default/slim/package.json, and .build/package.json have been updated to the latest possible version without build/test errors
+- All yarn.lock files updated
+- bumped PYTHON_VERSION=3.13 in Dockerfile
+- bumped ALPINE_VERSION=3.23 in Dockerfile
+
+#### Fixes
+- Dependency resolutions added to package.json, themes-default/slim/package.json, and .build/package.json to fix as many security vulnerabilities with dependencies as possible without build/test errors
+
+-----
+
 ## 1.0.26 (2026-08-21)
 
 Special thanks to @DavidHunterJS and @Mika3578 for the great contributions to this release!
