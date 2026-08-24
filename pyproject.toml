@@ -28,7 +28,7 @@ dependencies = [
     "markdown2==2.5.5",
     "packaging==26.3",
     "profilehooks==1.13.0",
-    "pygithub==2.9.1",
+    "pygithub==2.10.0",
     "pyjwt==2.13.0",
     "pymediainfo==7.0.1",
     "python-dateutil==2.9.0.post0",
