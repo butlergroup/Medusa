@@ -44,7 +44,7 @@ dependencies = [
     "six==1.17.0",
     "subliminal==2.2.1",
     "tmdbsimple==2.9.8",
-    "tornado==6.5.10",
+    "tornado==6.5.9",
     "tornroutes==0.5.1",
     "ttl-cache==1.6",
     "tvdbapiv2",

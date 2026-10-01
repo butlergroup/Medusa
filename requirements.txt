@@ -37,7 +37,7 @@ requests-toolbelt==1.0.0
 six==1.17.0
 subliminal==2.2.1
 tmdbsimple==2.9.8
-tornado==6.5.10
+tornado==6.5.9
 tornroutes==0.5.1
 ttl-cache==1.6
 tvdbapiv2 @ https://github.com/pymedusa/tvdbv2/archive/d6d0e9d98071c2d646beb997b336edbb0e98dfb7.zip
