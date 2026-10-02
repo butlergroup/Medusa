@@ -23,7 +23,7 @@ dependencies = [
     "feedparser==6.0.14",
     "gntp==1.0.3",
     "html5lib==1.1",
-    "jsonrpclib-pelix==0.4.3.4",
+    "jsonrpclib-pelix==1.2.0",
     "mako==1.4.3",
     "markdown2==2.5.5",
     "packaging==26.3.0",
